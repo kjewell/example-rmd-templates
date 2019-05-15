@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-author: "Your Name"
+author: KGJ
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
