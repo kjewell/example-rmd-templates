@@ -11,8 +11,20 @@ output:
 
 ## Introduction
 
-This is a very minimal example! The only thing which is changed in this template is a few of the default settings in the YAML. 
+This is an anlaysis. 
 
-## Customisation
+## Load Library
 
-A simple template like this might be useful to include if you have a common structure of report that you want to run. For example, you change the author name your name. You can edit the sections to include a generic layout.
+```{r setup, include=FALSE}
+# Load the required packages
+list_of_packages <- c("tidyverse", "janitor")
+lapply(list_of_packages, library, character.only = TRUE)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Data
+
+```{r data_in}
+
+```
